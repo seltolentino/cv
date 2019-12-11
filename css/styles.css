@@ -1,5 +1,4 @@
 body{
-    background-color: #EAF6F6;
     text-align: center;
     font-family: 'Merriweather', serif;
 }
@@ -7,6 +6,7 @@ body{
 .top {
     position: relative;
     padding-top: 100px;
+    background-color: #EAF6F6;
 }
 
 h1 {
@@ -27,8 +27,21 @@ h3 {
     color: #11999E;
 }
 
+hr {
+    border: 5px dotted;
+    border-style: dotted none none none;
+    color: red;;
+    /* color: #EAF6F6; */
+    width: 3rem;
+}
+
+.mySkills {
+    color: #66BFBF;
+}
+
 a {
     color: #11999E;
+    margin: 20px;
 }
 
 .mid {
@@ -36,7 +49,9 @@ a {
 }
 
 .bottom {
-    
+    background-color: #66BFBF;
+    margin: 0;
+    padding: 0;
 }
 
 .topCloud {
@@ -56,7 +71,7 @@ a {
 
 .displayImg {
     height: 200px;
-    margin-top: 10px;
+    margin-top: 3rem;
     width: 200px;
 }
 
@@ -66,17 +81,26 @@ a {
     width: 200px;
 }
 
-.displayPic, .skillImg {
-    height: 200px;
-    margin-top: 10px;
-    width: 200px;
+.skillImg {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
 }
 
+.chilliImg  {
+    margin-top: 10px;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+
+}
 .skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
+    text-align: left;
 }
 
-.skills {
-    text-align: left;
+.btn {
+    padding: 100px;
 }
